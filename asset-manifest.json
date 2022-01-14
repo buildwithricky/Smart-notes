@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Smart-notes/static/css/main.4504365e.css",
-    "main.js": "/Smart-notes/static/js/main.5991541a.js",
+    "main.js": "/Smart-notes/static/js/main.fc8e8be3.js",
     "index.html": "/Smart-notes/index.html",
     "main.4504365e.css.map": "/Smart-notes/static/css/main.4504365e.css.map",
-    "main.5991541a.js.map": "/Smart-notes/static/js/main.5991541a.js.map"
+    "main.fc8e8be3.js.map": "/Smart-notes/static/js/main.fc8e8be3.js.map"
   },
   "entrypoints": [
     "static/css/main.4504365e.css",
-    "static/js/main.5991541a.js"
+    "static/js/main.fc8e8be3.js"
   ]
 }
