@@ -9,7 +9,8 @@ const NoteList = ({ note, delItem ,settings}) => {
       
     }}>
       
-      {note.map((item) => {
+      { note.length<1 ? <div>please add a smart note</div> :
+          note.map((item) => {
         const { text, id, date } = item;
         return (
         <div key ={id}>
