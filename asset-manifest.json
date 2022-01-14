@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ghost-tremble/Smart-notes/static/css/main.4504365e.css",
+    "main.js": "/ghost-tremble/Smart-notes/static/js/main.5991541a.js",
+    "index.html": "/ghost-tremble/Smart-notes/index.html",
+    "main.4504365e.css.map": "/ghost-tremble/Smart-notes/static/css/main.4504365e.css.map",
+    "main.5991541a.js.map": "/ghost-tremble/Smart-notes/static/js/main.5991541a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4504365e.css",
+    "static/js/main.5991541a.js"
+  ]
+}
