@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+}
+.theme-dark {
+  --dark-text: #292929;
+}
+
+.cover {
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  display: flex;
+  position: fixed;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: center;
+  overflow: auto;
+  transition: 0.4s background-color;
+}
+
+.main-container {
+  width: 80vw;
+}
+
+section {
+  margin-top: 25px;
+}
+.section-header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+.section-header > h1 {
+  margin-right: auto;
+  font-size: 2em;
+}
+.section-header > a {
+  text-decoration: none;
+  border-radius: 3em;
+  background-color: #eef;
+  color: black;
+
+  vertical-align: center;
+  padding: 10px 15px;
+}
+.search-bar {
+  width: 100%;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+}
+.search-bar > .notes-search {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  outline: none;
+  color: #fff;
+  border-radius: 4px;
+  background-color: #1c263b;
+}
+::placeholder {
+  color: #fff;
+}
+
+.search-bar > .notes-search:hover {
+  outline: transparent;
+}
+
+.notes-container {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.single-note {
+  font: 1em sans-serif;
+  height: 300px;
+  width: 300px;
+  margin-right: 1em;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #1c263b;
+}
+.single-note > textarea {
+  resize: none;
+  width: 100%;
+  white-space: pre-wrap;
+  color: #fff;
+  margin-bottom: auto;
+  background-color: inherit;
+  border: none;
+  padding: 10px;
+  font-size: 30px;
+}
+.single-note > textarea:focus {
+  outline: transparent;
+}
+.list {
+  background-color: #1c263b;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+}
+.list > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.save-section {
+  display: flex;
+}
+.save-section > p {
+  margin-right: auto;
+  font-size: large;
+  padding: 12px;
+}
+.save-btn {
+  text-decoration: none;
+  background-color: rgb(53, 55, 95);
+  border: none;
+  color: rgb(152, 158, 219);
+  height: 40px;
+  padding: 10px 15px;
+  vertical-align: center;
+}
+.save-btn:hover {
+  background-color: rgb(35, 36, 61);
+}
+.delete-btn {
+  border: 1px solid #eef;
+  border-radius: 2em;
+}
+
+/* settings css */
+.settings-icon {
+  padding: 5px 6px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.settings-rotate {
+  transform: rotate(360deg);
+}
+.settings-menu {
+  background-color: #1c263b;
+
+  position: absolute;
+  color: #fff;
+  margin: 10px;
+  display: none;
+  right: 0;
+
+  width: 200px;
+}
+.settings-menu ul {
+  list-style: none;
+  padding: 10px;
+  margin-top: 15 10px;
+}
+.settings-menu ul li {
+  padding: 5px 10px;
+  cursor: pointer;
+  margin: 5px;
+}
+.hidden {
+  overflow: hidden;
+  height: 0px;
+  padding: 0;
+  transition: 0.3s;
+}
+.display {
+  height: 150px;
+}
+
+.settings-menu ul li:hover {
+}
+.settings-menu ul li a {
+  color: #fff;
+}
+.show-menu {
+  display: block;
+}
+
+.color-picker {
+  height: 10px;
+  width: 10px;
+}
+
+.plus-add {
+  width: 100%;
+  padding: 10px;
+}
+
+.plus-add .plus-icon {
+  color: #efefef;
+  display: block;
+  cursor: pointer;
+  background-color: rgb(15, 14, 15);
+}
